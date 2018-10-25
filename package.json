@@ -1,0 +1,22 @@
+{
+  "name": "idrivesafely_bot_v2",
+  "version": "1.0.0",
+  "description": "So I this is probably the least ethical code I've written, but I've been through the defensive driving course once, and I mean I reeeeeeally went through it trying to scrub any value from the information it was supposed to be teaching me; The course was boring and largely consisting of topics that should be common sense.",
+  "main": "index.js",
+  "scripts": {
+    "build": "./node_modules/.bin/babel src --out-dir lib",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spacesailor24/idrivesafely-bot.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spacesailor24/idrivesafely-bot/issues"
+  },
+  "homepage": "https://github.com/spacesailor24/idrivesafely-bot#readme",
+  "dependencies": {},
+  "devDependencies": {}
+}

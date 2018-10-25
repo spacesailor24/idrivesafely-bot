@@ -1,0 +1,17 @@
+{
+    "manifest_version": 2,
+    "name": "iDriveSafely Bot :)",
+    "description": "Complete that pesky course for you!...with minor inputs required from you lol.",
+    "version": "1.0",
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["index.js"]
+        }
+    ],
+    "browser_action": {
+        "default_popup": "popup.html"
+    }
+}
